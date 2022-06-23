@@ -26,6 +26,7 @@ body {
 	color: #212121;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background: #fcf5e6;
 }
 
 .wrapper {
@@ -445,6 +446,10 @@ ul > li {
 	margin-bottom: 5px;
 }
 
+.site-menu {
+	margin-bottom: 115px;
+}
+
 .extras {
 	display: flex;
 	margin-bottom: 95px;
@@ -476,4 +481,34 @@ ul > li {
 .extras__col-socials {
 	height: 100%;
 	background: url(img/bg/pattern.png) center center / 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.socials {
+	display: flex;
+}
+
+.socials__item {
+	margin-right: 50px;
+}
+
+.socials__item:last-child {
+	margin-right: 0px;
+}
+
+.socials__link {
+	width: 38px;
+	height: 38px;
+	display: block;
+}
+
+.socials__link:hover .socials__icon {
+	fill: var(--red);
+}
+
+.socials__icon {
+	width: 100%;
+	height: 100%;
 }
