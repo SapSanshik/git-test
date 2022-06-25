@@ -11,13 +11,14 @@
 </head>
 
 <body>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<div class="wrapper">
 	<section class="hero">
 		<header class="header">
 			<a href="" class="logo">
 				<img src="img/content/logos/logo-main.png" class="logo__pic" alt="lost shirt logo">
 			</a>
-			<a href="mailto:mr,.miko2000@mail.ru" class="mail">
+			<a href="mailto:mr.miko2000@mail.ru" class="mail">
 				<div class="mail__title">По всем вопросом пишите на:</div>
 				<div class="mail__content">mr.miko2000@mail.ru</div>
 			</a>
@@ -36,6 +37,46 @@
 				</div>
 			</div>	
 		</div>
+		<aside class="sidebar sidebar--opened">
+			<a href="" class="sidebar__hamburger">
+					<svg class="sidebar__hamburger-icon">
+						<use xlink:href="img/icons-sprite.svg#bars"></use>
+					</svg>
+			</a>
+			<div class="sidebar__header">
+				<a href="#" class="logo">
+					<img src="img/content/logos/logo-main.png" alt="" class="logo__image">
+				</a>
+				<a href="#" class="sidebar__close">
+					<svg class="sidebar__close-icon">
+						<use xlink:href="img/icons-sprite.svg#cross"></use>
+					</svg>
+				</a>
+			</div>
+			<nav class="side-menu sidebar__menu">
+				<ul class="side-menu__list">
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Детская коллекция</a>
+					</li>
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Мужская коллекция</a>
+					</li>
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Женская коллекция</a>
+					</li>
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Популярные принты</a>
+					</li>
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Специальные предложение</a>
+					</li>
+					<li class="side-menu__item">
+						<a href="#" class="side-menu__link">Скоро в продаже</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+
 	</section>
 
 	<section class="products">
@@ -275,13 +316,6 @@
 								<a href="#" class="socials__link">
 									<svg class="socials__icon">
 										<use xlink:href="img/icons-sprite.svg#insta"></use>
-									</svg>
-								</a>
-							</li>
-							<li class="socials__item">
-								<a href="#" class="socials__link">
-									<svg class="socials__icon">
-										<use xlink:href="img/icons-sprite.svg#twiitter"></use>
 									</svg>
 								</a>
 							</li>
