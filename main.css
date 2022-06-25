@@ -74,6 +74,24 @@ ul > li {
 	flex-direction:column;
 }
 
+.sidebar__hamburger-icon {
+	width: 29px;
+	height: 29px;
+	fill: var(--yellow);
+}
+
+.sidebar__hamburger {
+	position: absolute;
+	display: flex;
+	top: 27px;
+	left: 30%;
+	transform: translate(-50%);
+}
+
+.sidebar--opened .sidebar__hamburger {
+	display: none;
+}
+
 .sidebar--opened {
 	width: 325px;
 	padding: 0 3% 0 4%;
@@ -114,6 +132,15 @@ ul > li {
 	position: absolute;
 	top: -4px;
 	right: 23px;
+}
+
+.sidebar__close .sidebar__close-icon {
+	height: 30px;
+	left: 150px;
+}
+
+.sidebar__close .sidebar__close-icon:hover {
+	color: var(--red);
 }
 
 .side-menu__link {
