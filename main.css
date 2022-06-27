@@ -232,7 +232,7 @@ ul > li {
 
 .fade-slider__item--style-thirts .fade-slider__text {
 	position: absolute;
-	left: 50%;
+	left: 68%;
 	top: 50%;
 	transform: translate(-164%, -52%) ;
 }
@@ -246,7 +246,7 @@ ul > li {
 
 .fade-slider__item--style-presents .fade-slider__text {
     position: absolute;
-	left: 63%;
+	left: 83%;
     top: 79%;
     transform: translate(-164%, -52%);
 }
